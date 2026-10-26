@@ -1,135 +1,280 @@
-# Urban Nexus 📍🌱
+<div align="center">
 
-**Urban Nexus** (Smart Site Selection for SMBs) is an AI-powered, GIS-driven location intelligence and sustainability optimization platform. Built primarily for Small and Medium Businesses (SMBs) expanding in urban markets like Pune, Urban Nexus leverages Google's Gemini APIs, Google Maps APIs, and geospatial analytics to recommend optimal, cost-effective, and environmentally friendly business locations.
+# 🌍 URBAN NEXUS
 
----
+### BUSINESS MAPPER
 
-## 🚀 Key Features
+**Smarter Locations. Better Businesses. Sustainable Cities.**
 
-- **Smart Interactive Questionnaire:** Collects tailored inputs regarding business type (e.g., Cake Shop, Cloud Kitchen, Pharmacy, Laundry), target audience, operating hours, delivery capabilities, and competition preferences.
-- **AI-Driven Site Optimization:** Analyzes population density, market demand trends, and competitor proximity to rank optimal potential locations.
-- **Geospatial & Heatmap Visualization:** Visualizes high-demand hotspots, competitor density, and route networks directly on interactive Google Maps.
-- **Sustainability & Logistics Scoring:** Evaluates logistics costs, delivery radii, and route emissions to calculate a comprehensive **Sustainability Score** and lower carbon footprint.
-- **User Management & Authentication:** Powered by Firebase for authentication and user management.
+An intelligent business location intelligence platform designed to explore how geographic data, market insights, and sustainability considerations can support better business site selection.
 
----
+<br/>
 
-## 🛠️ Tech Stack
+**Turning location data into smarter business decisions.**
 
-- **Frontend:** React.js, Vite, HTML5, CSS3, Tailwind CSS / Custom Components
-- **Backend & Database:** Node.js, Firebase
-- **APIs & Services:** Google Maps API, Google Gemini API, WorldPop Data
-- **Code Quality & Linting:** ESLint
-- **Deployment:** Vercel
+</div>
 
 ---
 
-## 📁 Project Structure
+## 🌆 About the Project
 
-```text
-unbm-main/
-└── GDG/
-    ├── .env
-    ├── .gitignore
-    ├── eslint.config.js
-    ├── index.html
-    ├── package.json
-    ├── package-lock.json
-    ├── vite.config.js
-    └── src/
-        ├── App.jsx
-        ├── App.css
-        ├── index.css
-        ├── main.jsx
-        ├── firebase.js
-        ├── assets/
-        └── components/
-            ├── GoogleMapComponent.jsx
-            ├── card.jsx
-            ├── dashboard.jsx
-            ├── dashboardNav.jsx
-            ├── landing.jsx
-            ├── login.jsx
-            ├── nav.jsx
-            ├── naval.jsx
-            ├── page2.jsx
-            ├── page3.jsx
-            ├── profile.jsx
-            ├── profilenav.jsx
-            └── signUp.jsx
+**Urban Nexus: Business Mapper (UNBM)** is a project focused on business location intelligence and sustainable urban development.
+
+Choosing the right location is one of the most important decisions for any business. Customer accessibility, local demand, competition, transportation, and environmental factors can all influence its success.
+
+UNBM explores how geographic information and data-driven analysis can help entrepreneurs evaluate locations more systematically.
+
+### 🎯 Our Vision
+
+> Make business location planning more accessible, data-driven, and sustainability-conscious.
+
+## 🚨 The Problem
+
+Traditional business location selection can depend heavily on assumptions, fragmented information, and manual research.
+
+- 📍 **Location uncertainty:** Finding an area that suits a particular business can be difficult.
+- 📊 **Limited insights:** Relevant geographic and market information may be scattered across different sources.
+- 🏪 **Competition:** Existing businesses can influence the opportunities available at a location.
+- 🚗 **Accessibility:** Transportation and connectivity can affect customers and operations.
+- 🌱 **Sustainability:** Environmental considerations may be overlooked during location planning.
+
+## 💡 The Solution
+
+UNBM aims to bring relevant location information and business requirements into a unified decision-support workflow.
+
+The platform's intended approach includes:
+
+| Capability | Purpose |
+|---|---|
+| 🗺️ Geographic analysis | Understand the characteristics of potential locations |
+| 📊 Data-driven evaluation | Compare locations using relevant indicators |
+| 🏪 Business suitability | Consider the requirements of different business categories |
+| 🚦 Accessibility analysis | Evaluate connectivity and transportation factors |
+| 🌱 Sustainability insights | Explore environmental and logistics-related considerations |
+| 📈 Location comparison | Help users assess the relative strengths of candidate sites |
+
+*The table describes the project's intended capabilities; actual availability depends on the implementation in the repository.*
+
+---
+
+## ✨ Key Highlights
+
+<div align="center">
+
+| 🗺️ Location Intelligence | 📊 Data-Driven Decisions |
+|---|---|
+| Explore geographic factors relevant to business locations. | Use available indicators to compare potential sites. |
+
+| 🌱 Sustainable Planning | 🏪 Business-Oriented Analysis |
+|---|---|
+| Consider environmental and transportation impacts. | Evaluate location requirements for different business categories. |
+
+</div>
+
+## 🔄 How It Works
+
+```mermaid
+flowchart TD
+    A([👤 User]) --> B[Select Business Category]
+    B --> C[Choose Target Area]
+    C --> D[Collect Available Geographic Data]
+    D --> E[Analyze Location Factors]
+    E --> F[Evaluate Business Suitability]
+    F --> G[Consider Sustainability]
+    G --> H[Compare Candidate Locations]
+    H --> I([📊 Location Insights])
+
+    style A fill:#172554,stroke:#60A5FA,color:#FFFFFF
+    style I fill:#14532D,stroke:#4ADE80,color:#FFFFFF
 ```
 
+The diagram illustrates a conceptual workflow for UNBM rather than a verified sequence of implemented application modules.
+
+## 🏪 Potential Use Cases
+
+### 🍰 Retail and Bakeries
+
+Evaluate local demand, accessibility, and nearby competition when considering a new store.
+
+### 🍱 Cloud Kitchens
+
+Explore delivery coverage, transportation distances, and location suitability.
+
+### 💊 Pharmacies
+
+Consider accessibility, surrounding demand indicators, and nearby facilities.
+
+### 🧺 Local Service Businesses
+
+Explore locations for laundry services and other neighborhood-oriented businesses.
+
+### 🌱 Sustainable Urban Development
+
+Investigate how business distribution and accessibility relate to more sustainable urban planning.
+
 ---
 
-## ⚙️ Getting Started
+## 🛠️ Technology Stack
+
+UNBM's exact technology stack should be documented using the dependencies and source files in the repository.
+
+| Layer | Technology |
+|---|---|
+| Frontend | React JS|
+| Backend | Node JS, Express JS |
+| Database | MongoDB|
+| GIS and Mapping | To be confirmed from implementation |
+| Data Analysis | To be confirmed from implementation |
+| AI / Machine Learning | If implemented |
+| External Services | Actual integrations to be documented |
+
+**Why this matters:** Accurate technology documentation helps developers understand the project, install the right dependencies, and contribute effectively.
+
+---
+
+## 🏗️ Conceptual Architecture
+
+```mermaid
+flowchart TB
+    U[👤 User] --> UI[User Interface]
+    UI --> APP[Application Logic]
+
+    APP --> GEO[Geographic Data]
+    APP --> ANALYSIS[Location Analysis]
+
+    GEO --> PROCESS[Data Processing]
+    ANALYSIS --> PROCESS
+
+    PROCESS --> INSIGHTS[Location Insights]
+    INSIGHTS --> UI
+
+    style U fill:#172554,stroke:#60A5FA,color:#FFFFFF
+    style UI fill:#1E3A8A,stroke:#60A5FA,color:#FFFFFF
+    style APP fill:#312E81,stroke:#818CF8,color:#FFFFFF
+    style GEO fill:#164E63,stroke:#22D3EE,color:#FFFFFF
+    style ANALYSIS fill:#164E63,stroke:#22D3EE,color:#FFFFFF
+    style PROCESS fill:#3F3F46,stroke:#A1A1AA,color:#FFFFFF
+    style INSIGHTS fill:#14532D,stroke:#4ADE80,color:#FFFFFF
+```
+
+This diagram presents a high-level architectural concept. Replace it with the actual components and data flow once the source code has been verified.
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
-Ensure you have the following installed on your system:
-- [Node.js](https://nodejs.org/) (v16.x or higher)
-- [npm](https://www.npmjs.com/) (v8.x or higher)
+Install the tools required by the project's actual technology stack.
 
-### Installation
+Depending on the implementation, these may include:
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/urban-nexus.git
-   cd unbm-main/GDG
-   ```
+- Git
+- Node.js and npm, if the project uses Node.js
+- A database, if required
+- API credentials, if external services are used
 
-2. **Install Dependencies**
-   ```bash
-   npm install
-   ```
+### 1. Clone the Repository
 
-3. **Configure Environment Variables**
-   Create or edit the `.env` file in the `GDG` directory with your API credentials:
-   ```env
-   VITE_FIREBASE_API_KEY=your_firebase_api_key
-   VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-   VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
-   VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
-   VITE_GEMINI_API_KEY=your_gemini_api_key
-   ```
+```bash
+git clone https://github.com/Yash-Bhalodiya/unbm.git
+```
 
-4. **Run the Development Server**
-   ```bash
-   npm run dev
-   ```
-   Open your browser and navigate to `http://localhost:5173`.
+### 2. Enter the Project Directory
 
-5. **Build for Production**
-   ```bash
-   npm run build
-   ```
+```bash
+cd unbm
+```
 
----
+### 3. Switch to the GDG Branch
 
-## 📊 Business Logic Model
+```bash
+git fetch origin
+git switch -c GDG --track origin/new/GDG
+```
 
-The platform optimizes location choices using the following mathematical formulation:
+If you already have the branch locally, switch to it directly:
 
-$$S_{opt} = \arg\min_{S} \left[ \alpha C_{t} + \beta D_{m} - \gamma S_{c} \right]$$
+```bash
+git switch GDG
+```
 
-Where:
-- $S_{opt}$: Optimal business site selection
-- $D_{m}$: Market demand score at location $S$
-- $C_{t}$: Total logistics and operational cost
-- $S_{c}$: Sustainability score (low carbon footprint, eco-friendly impact)
-- $\alpha, \beta, \gamma$: Weighting factors for cost, demand, and sustainability
+### 4. Install Dependencies
 
----
+Use the package manager specified by the project.
 
-## 📈 Key Research Findings & Benchmarks
+For an npm-based application, run this command in the directory containing its `package.json`:
 
-Based on empirical studies conducted in Pune across cloud kitchens, bakeries, and retail services:
-- **25%** reduction in logistics costs compared to static location planning.
-- **18%** decrease in carbon emissions via optimized route planning.
-- **92.5%** accuracy achieved by the AI site selection model.
-- **4.2%** RMSE in demand forecasting.
+```bash
+npm install
+```
+
+### 5. Configure the Environment
+
+If the application requires environment variables, create the appropriate environment file using the variable names expected by the source code.
+
+Never commit API keys, passwords, or other secrets.
+
+### 6. Run the Application
+
+Check the project's configuration for the correct development command. For Node.js projects, inspect the `scripts` section in `package.json`.
+
+**Note:** The dependency installation and startup commands above are conditional examples. Confirm them against the actual project before using them as definitive setup instructions.
 
 ---
 
-## 📜 License
+## 🌱 Impact
 
-This project was developed for academic and competition purposes under GDG initiatives. All rights reserved.
+UNBM explores the intersection of three important areas:
+
+**📍 Geography** — Understanding where opportunities exist.
+
+**📊 Intelligence** — Using data to support better decisions.
+
+**🌍 Sustainability** — Considering environmental and transportation impacts.
+
+By bringing these perspectives together, the project aims to support more informed business planning and sustainable urban growth.
+
+## 🤝 Contributing
+
+Contributions, suggestions, and feedback are welcome.
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Implement your changes.
+4. Test the changes.
+5. Submit a pull request with a clear description.
+
+```bash
+git checkout -b feature/your-feature
+git add .
+git commit -m "Describe your changes"
+git push origin feature/your-feature
+```
+
+## 🔮 Future Possibilities
+
+Potential future directions include:
+
+- 🤖 Explainable AI-assisted site recommendations
+- 🗺️ Advanced spatial analysis
+- 📈 Interactive analytics dashboards
+- 🌱 Improved environmental impact estimation
+- 📍 Integration of additional geographic datasets
+- 📄 Automated business location reports
+
+These enhancements would depend on project priorities, available data, and technical feasibility.
+
+---
+
+<div align="center">
+
+### 🌍 Urban Nexus: Business Mapper
+
+**Smarter Locations. Better Businesses. Sustainable Cities.**
+
+*Exploring a more intelligent approach to business location planning.*
+
+⭐ If you find this project interesting, consider starring the repository!
+
+</div>
